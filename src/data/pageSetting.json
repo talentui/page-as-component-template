@@ -1,0 +1,111 @@
+{
+    "componentList": [
+        {
+            "hasCustomProps": true,
+            "parentId": "83ea1f00-c2e8-11e8-9a15-11232c9744c0",
+            "editableData": {
+                "__border__": {
+                    "hasBorder": false,
+                    "borderStyle": "shadow"
+                },
+                "value": "1"
+            },
+            "classId": "123123123",
+            "deletable": true,
+            "id": "83e9f7f0-c2e8-11e8-9a15-11232c9744c0",
+            "appId": 909,
+            "cType": "Component1"
+        },
+        {
+            "hasCustomProps": true,
+            "parentId": "f19e1331-c2e8-11e8-9a15-11232c9744c0",
+            "editableData": {
+                "__border__": {
+                    "hasBorder": false,
+                    "borderStyle": "shadow"
+                },
+                "value": "1",
+                "name": "1"
+            },
+            "classId": "123123123dd",
+            "deletable": true,
+            "isContainer": true,
+            "id": "f19e1330-c2e8-11e8-9a15-11232c9744c0",
+            "appId": 100,
+            "cType": "Component2"
+        },
+        {
+            "hasCustomProps": true,
+            "parentId": "f8de7591-c2e8-11e8-9a15-11232c9744c0",
+            "editableData": {
+                "__border__": {
+                    "hasBorder": false,
+                    "borderStyle": "shadow"
+                },
+                "value": "1"
+            },
+            "classId": "123123123",
+            "deletable": true,
+            "id": "f8de7590-c2e8-11e8-9a15-11232c9744c0",
+            "appId": 909,
+            "cType": "Component3"
+        },
+        {
+            "hasCustomProps": true,
+            "parentId": "fa44bc51-c2e8-11e8-9a15-11232c9744c0",
+            "editableData": {
+                "__border__": {
+                    "hasBorder": false,
+                    "borderStyle": "shadow"
+                },
+                "value": "1"
+            },
+            "classId": "123123123",
+            "deletable": true,
+            "id": "fa44bc50-c2e8-11e8-9a15-11232c9744c0",
+            "appId": 909,
+            "cType": "Component1"
+        }
+    ],
+    "pageSettings": {
+        "editableData": {
+            "__border__": {
+                "hasBorder": true,
+                "borderStyle": "shadow"
+            },
+            "__gridItemMargin__": 20,
+            "__background__": {
+                "value": "//xfile4.tita.com/ux/upaas-portal/release/extras/images/pb004/010.png",
+                "type": "IMAGE"
+            },
+            "__toTop__": true,
+            "name": "1"
+        }
+    },
+    "sectionList": [
+        {
+            "targetLayout": "default",
+            "id": "83ea1f00-c2e8-11e8-9a15-11232c9744c0"
+        },
+        {
+            "id": "f19e1331-c2e8-11e8-9a15-11232c9744c0",
+            "targetLayout": "default"
+        },
+        {
+            "targetLayout": "default",
+            "id": "f8de7591-c2e8-11e8-9a15-11232c9744c0"
+        },
+        {
+            "targetLayout": "default",
+            "id": "fa44bc51-c2e8-11e8-9a15-11232c9744c0"
+        }
+    ],
+    "pageProperty": {
+        "pagePart": 1,
+        "pageType": 0,
+        "layout": "vertical",
+        "identityType": 0,
+        "title": "测面ddddd",
+        "template": "mobile"
+    }
+}

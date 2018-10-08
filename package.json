@@ -2,7 +2,7 @@
   "name": "page-as-component-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
@@ -18,12 +18,15 @@
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
-    "@beisen/page-builder": "^6.0.0-beta.0",
+    "@beisen/page-builder": "^6.0.0-beta.1",
     "@talentui/cz-project-changelog": "^1.0.1",
     "@talentui/get-babel-config": "^4.0.0",
     "@talentui/webpack-config": "^4.0.2",
     "commitizen": "^2.10.1",
     "node-sass": "^4.9.3",
+    "page-as-component-app": "^1.0.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
     "sass-loader": "^7.1.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0",
@@ -33,5 +36,9 @@
     "commitizen": {
       "path": "./node_modules/@talentui/cz-project-changelog"
     }
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "immutable": "^3.8.2"
   }
 }
