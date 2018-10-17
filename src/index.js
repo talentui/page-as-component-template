@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
-// import './style.css'
+import './style.less'
 
-import {render} from 'react-dom';
+if(process.env.NODE_ENV==='production'){
+    console.log(1);
+}
+
+const a = __HEHE
 
 export default class ThunderPage extends Component {
     constructor(){

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
     "compile": "babel ./src --out-dir lib --copy-files",
-    "build": "webpack --mode production"
+    "build": "webpack",
+    "build-prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -21,15 +22,17 @@
     "@babel/core": "^7.1.0",
     "@talentui/cz-project-changelog": "^1.0.1",
     "@talentui/get-babel-config": "^4.0.0",
-    "@talentui/webpack-config": "^4.0.2",
+    "@talentui/webpack-config": "^4.0.4",
     "commitizen": "^2.10.1",
     "node-sass": "^4.9.3",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "sass-loader": "^7.1.0",
     "webpack": "^4.19.1",
+    "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.1.8",
+    "webpack-merge": "^4.1.4"
   },
   "config": {
     "commitizen": {
@@ -38,6 +41,7 @@
   },
   "dependencies": {
     "D": "^1.0.0",
-    "immutable": "^3.8.2"
+    "immutable": "^3.8.2",
+    "less": "^3.8.1"
   }
 }
