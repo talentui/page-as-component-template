@@ -2,6 +2,8 @@
   "name": "page-as-component-template",
   "version": "1.0.0",
   "description": "",
+  "appId":"100",
+  "componentCode":"demo",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
