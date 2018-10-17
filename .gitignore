@@ -51,3 +51,4 @@ dist/
 style.css
 
 /.cache-loader
+yarn.lock
