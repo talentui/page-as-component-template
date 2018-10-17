@@ -22,6 +22,7 @@
     "@babel/core": "^7.1.0",
     "@talentui/cz-project-changelog": "^1.0.1",
     "@talentui/get-babel-config": "^4.0.0",
+    "@talentui/thunder-component-bootstrap": "^1.0.0",
     "@talentui/webpack-config": "^4.0.4",
     "commitizen": "^2.10.1",
     "node-sass": "^4.9.3",
