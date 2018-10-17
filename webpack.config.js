@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = require("@talentui/webpack-config")({
     entry: {
-        main: 'page-as-component-app'
+        main: './src/index'
     },
     port: 3001
     // alias: {

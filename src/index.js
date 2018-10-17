@@ -1,29 +1,17 @@
-import React from 'react';
-import Workspace, { TubState, GridViewer } from '@beisen/page-builder'
-import pageSettings from './data/pageSetting.json';
-import * as allComponent from './components';
+import React, {Component} from 'react';
+// import './style.css'
 
-export default class AppPageComponent extends React.Component {
-    constructor() {
+import {render} from 'react-dom';
+
+export default class ThunderPage extends Component {
+    constructor(){
         super(...arguments);
-        this.state = {
-            tubState: TubState.create(pageSettings)
-        }
     }
 
-    getComponentClass = (data) => {
-        let {cType} = data;
-        return allComponent[cType]
-    }
+    static displayName = process.env.className || 'ThunderPage'
 
-    handleEdit = (tubState) => {
-        this.setState({
-            tubState
-        })
-    }
 
-    render() {
-        console.log(this.state.tubState.toJS());
-        return <GridViewer component={{}} onChange={this.handleEdit} availableComponents={[]} getComponentClass={this.getComponentClass} tubState={this.state.tubState} />
+    render(){
+        return <div>ThunderPage</div>
     }
 }
