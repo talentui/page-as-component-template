@@ -2,12 +2,12 @@
   "name": "page-as-component-template",
   "version": "1.0.0",
   "description": "",
-  "appId":"100",
-  "componentCode":"demo",
+  "appId": "100",
+  "componentCode": "demo",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --config=./webpack.example.js",
     "compile": "babel ./src --out-dir lib --copy-files",
     "build": "webpack",
     "build-prod": "webpack --mode production"
