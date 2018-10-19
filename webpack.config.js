@@ -8,20 +8,22 @@ const buildProd =
     "production";
 const webpackConfig = require("@talentui/webpack-config")({
     entry: {
-        main: "@talentui/thunder-component-bootstrap/dynamic"
+        main: "@talentui/thunder-component-bootstrap"
     },
+    dllList: [
+        "@talentui/dll-react"
+    ],
     port: 3001,
     extractStyles: false,
-    // alias: {
-    //     "react": path.resolve(__dirname, 'node_modules/react')
-    // }
+    alias: {
+        "&": path.resolve(__dirname, 'src')
+    },
     define: {
         "process.env": {
             library: JSON.stringify(library),
             packageName: JSON.stringify(name),
             appId: JSON.stringify(appId),
-            componentCode: JSON.stringify(componentCode),
-            componentEntry: JSON.stringify(path.resolve(__dirname, "src/index"))
+            componentCode: JSON.stringify(componentCode)
         }
     },
     projectType: "module"
