@@ -20,14 +20,10 @@
 /src
     #export组件的文件，必须存在
     index.js
-    #和Page Builder和动态加载相关的逻辑存放的目录
-    /thuner
-        #Page Builder属性配置代码存放的目录
-        /props
-            #export 属性组件文件
-            index.js
-        #负责加载属性组件的文件，通过动态import把属性组件分开，保证组件在编辑态加载属性组件，运行态不加载属性组件，提高性能。
-        loader.js
+    #Page Builder属性配置代码存放的目录
+    /props
+        #export 属性组件文件
+        index.js
 #git忽略文件列表
 .gitignore
 #npm忽略文件列表
